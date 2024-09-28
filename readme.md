@@ -11,4 +11,4 @@ migrate -path ./schema -database 'postgres://postgres:qwerty@localhost:5436/post
 ## Swagger
 1) Сгенерировать свагер
 swag init -g cmd/main.go 
-http://localhost:8000/swagger/index.html
+2) Просмотр:: http://localhost:8000/swagger/index.html
